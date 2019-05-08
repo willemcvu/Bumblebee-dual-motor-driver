@@ -471,57 +471,57 @@ Wire Wire Line
 $Comp
 L Device:R_US R?
 U 1 1 5C53D9DB
-P 5100 1050
+P 6900 5200
 AR Path="/5C4E5628/5C53D9DB" Ref="R?"  Part="1" 
 AR Path="/5C83278E/5C8304A7/5C53D9DB" Ref="R?"  Part="1" 
 AR Path="/5C53D9DB" Ref="R4"  Part="1" 
-F 0 "R4" H 5032 1004 50  0000 R CNN
-F 1 "10k" H 5032 1095 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5140 1040 50  0001 C CNN
-F 3 "~" H 5100 1050 50  0001 C CNN
-	1    5100 1050
+F 0 "R4" H 6832 5154 50  0000 R CNN
+F 1 "10k" H 6832 5245 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6940 5190 50  0001 C CNN
+F 3 "~" H 6900 5200 50  0001 C CNN
+	1    6900 5200
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5C540E62
-P 5100 1200
+P 6900 5350
 AR Path="/5C4E5628/5C540E62" Ref="#PWR?"  Part="1" 
 AR Path="/5C83278E/5C8304A7/5C540E62" Ref="#PWR?"  Part="1" 
 AR Path="/5C540E62" Ref="#PWR025"  Part="1" 
-F 0 "#PWR025" H 5100 950 50  0001 C CNN
-F 1 "GND" H 5105 1027 50  0000 C CNN
-F 2 "" H 5100 1200 50  0001 C CNN
-F 3 "" H 5100 1200 50  0001 C CNN
-	1    5100 1200
+F 0 "#PWR025" H 6900 5100 50  0001 C CNN
+F 1 "GND" H 6905 5177 50  0000 C CNN
+F 2 "" H 6900 5350 50  0001 C CNN
+F 3 "" H 6900 5350 50  0001 C CNN
+	1    6900 5350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R?
 U 1 1 5C5485A4
-P 5700 1050
+P 7500 5200
 AR Path="/5C4E5628/5C5485A4" Ref="R?"  Part="1" 
 AR Path="/5C83278E/5C8304A7/5C5485A4" Ref="R?"  Part="1" 
 AR Path="/5C5485A4" Ref="R5"  Part="1" 
-F 0 "R5" H 5632 1004 50  0000 R CNN
-F 1 "10k" H 5632 1095 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5740 1040 50  0001 C CNN
-F 3 "~" H 5700 1050 50  0001 C CNN
-	1    5700 1050
+F 0 "R5" H 7432 5154 50  0000 R CNN
+F 1 "10k" H 7432 5245 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7540 5190 50  0001 C CNN
+F 3 "~" H 7500 5200 50  0001 C CNN
+	1    7500 5200
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5C5485BA
-P 5700 1200
+P 7500 5350
 AR Path="/5C4E5628/5C5485BA" Ref="#PWR?"  Part="1" 
 AR Path="/5C83278E/5C8304A7/5C5485BA" Ref="#PWR?"  Part="1" 
 AR Path="/5C5485BA" Ref="#PWR029"  Part="1" 
-F 0 "#PWR029" H 5700 950 50  0001 C CNN
-F 1 "GND" H 5705 1027 50  0000 C CNN
-F 2 "" H 5700 1200 50  0001 C CNN
-F 3 "" H 5700 1200 50  0001 C CNN
-	1    5700 1200
+F 0 "#PWR029" H 7500 5100 50  0001 C CNN
+F 1 "GND" H 7505 5177 50  0000 C CNN
+F 2 "" H 7500 5350 50  0001 C CNN
+F 3 "" H 7500 5350 50  0001 C CNN
+	1    7500 5350
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -530,24 +530,8 @@ Wire Notes Line
 	550  550  2900 550 
 Wire Notes Line
 	550  4200 2900 4200
-Text Notes 4900 650  0    100  ~ 0
+Text Notes 6700 4800 0    100  ~ 0
 Thermistor Inputs
-Text HLabel 5150 900  2    50   Input ~ 0
-NTC1
-Wire Wire Line
-	5150 900  5100 900 
-Text HLabel 5750 900  2    50   Input ~ 0
-NTC2
-Wire Wire Line
-	5750 900  5700 900 
-Wire Notes Line
-	4850 500  6250 500 
-Wire Notes Line
-	4850 500  4850 1450
-Wire Notes Line
-	4850 1450 6250 1450
-Wire Notes Line
-	6250 1450 6250 500 
 Text Notes 8450 7000 0    100  ~ 0
 Willem Hillier\n5/8/2019
 Wire Notes Line
@@ -864,12 +848,12 @@ Speed adjust
 $Comp
 L Connector_Generic:Conn_01x04 J5
 U 1 1 5CEF2069
-P 5850 4900
-F 0 "J5" H 5800 4600 50  0000 L CNN
-F 1 "JST-PH" H 5800 5100 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 5850 4900 50  0001 C CNN
-F 3 "~" H 5850 4900 50  0001 C CNN
-	1    5850 4900
+P 5550 4900
+F 0 "J5" H 5500 4600 50  0000 L CNN
+F 1 "JST-XH" H 5400 5100 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 5550 4900 50  0001 C CNN
+F 3 "~" H 5550 4900 50  0001 C CNN
+	1    5550 4900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -905,12 +889,12 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x04 J3
 U 1 1 5CEFCADE
-P 5550 4900
-F 0 "J3" H 5500 4600 50  0000 L CNN
-F 1 "HEADER" H 5400 5100 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5550 4900 50  0001 C CNN
-F 3 "~" H 5550 4900 50  0001 C CNN
-	1    5550 4900
+P 5850 4900
+F 0 "J3" H 5800 4600 50  0000 L CNN
+F 1 "HEADER" H 5750 5100 50  0000 L CNN
+F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-4_1x04_P2.54mm_Horizontal" H 5850 4900 50  0001 C CNN
+F 3 "~" H 5850 4900 50  0001 C CNN
+	1    5850 4900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1168,23 +1152,23 @@ Wire Wire Line
 $Comp
 L power:VCC #PWR06
 U 1 1 5CFB0C44
-P 850 6000
-F 0 "#PWR06" H 850 5850 50  0001 C CNN
-F 1 "VCC" H 867 6173 50  0000 C CNN
-F 2 "" H 850 6000 50  0001 C CNN
-F 3 "" H 850 6000 50  0001 C CNN
-	1    850  6000
+P 650 6000
+F 0 "#PWR06" H 650 5850 50  0001 C CNN
+F 1 "VCC" H 667 6173 50  0000 C CNN
+F 2 "" H 650 6000 50  0001 C CNN
+F 3 "" H 650 6000 50  0001 C CNN
+	1    650  6000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	850  6000 850  6050
+	650  6000 650  6050
 Wire Wire Line
-	850  6050 1050 6050
+	650  6050 850  6050
 Wire Wire Line
-	1050 6150 850  6150
+	850  6150 650  6150
 Wire Wire Line
-	850  6150 850  6050
-Connection ~ 850  6050
+	650  6150 650  6050
+Connection ~ 650  6050
 Text Label 650  5050 0    50   ~ 0
 M8RXD
 $Comp
@@ -1287,21 +1271,10 @@ Motor Control
 $Comp
 L Connector_Generic:Conn_01x08 J4
 U 1 1 5D13B745
-P 5550 6000
-F 0 "J4" H 5500 5500 50  0000 L CNN
-F 1 "HEADER" H 5400 6400 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 5550 6000 50  0001 C CNN
-F 3 "~" H 5550 6000 50  0001 C CNN
-	1    5550 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J6
-U 1 1 5D13C2EF
 P 5850 6000
-F 0 "J6" H 5800 5500 50  0000 L CNN
-F 1 "JST-PH" H 5800 6400 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical" H 5850 6000 50  0001 C CNN
+F 0 "J4" H 5800 5500 50  0000 L CNN
+F 1 "HEADER" H 5750 6400 50  0000 L CNN
+F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-8_1x08_P2.54mm_Horizontal" H 5850 6000 50  0001 C CNN
 F 3 "~" H 5850 6000 50  0001 C CNN
 	1    5850 6000
 	1    0    0    -1  
@@ -1318,9 +1291,6 @@ Wire Wire Line
 	5650 6000 5350 6000
 Wire Wire Line
 	5650 6300 5350 6300
-Wire Wire Line
-	5350 6400 5650 6400
-Connection ~ 5350 6400
 Connection ~ 5350 6200
 Connection ~ 5350 6000
 Connection ~ 5350 5800
@@ -1343,8 +1313,6 @@ Wire Wire Line
 	4800 6300 5350 6300
 Wire Wire Line
 	5250 5800 5250 6000
-Wire Wire Line
-	5250 6400 5350 6400
 Wire Wire Line
 	5250 5800 5350 5800
 $Comp
@@ -1870,7 +1838,7 @@ $Sheet
 S 9450 2050 1000 800 
 U 5D4DF0EE
 F0 "MOTOR2_DRIVER" 50
-F1 "file5CDA5614.sch" 50
+F1 "file5CDA5615.sch" 50
 F2 "AHI" I L 9450 2150 50 
 F3 "ALO" I L 9450 2250 50 
 F4 "BHI" I L 9450 2400 50 
@@ -1920,6 +1888,136 @@ Wire Notes Line
 	4450 550  2950 550 
 Text Notes 3000 700  0    100  ~ 0
 Configuration
-Text Notes -100 6200 0    200  ~ 40
-ADD RESISTORS
+$Comp
+L Device:R_Small_US R20
+U 1 1 5CD595B4
+P 950 6050
+F 0 "R20" V 650 5950 50  0000 C CNN
+F 1 "1k" V 650 6150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 950 6050 50  0001 C CNN
+F 3 "~" H 950 6050 50  0001 C CNN
+	1    950  6050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R21
+U 1 1 5CD595BA
+P 950 6150
+F 0 "R21" V 650 6050 50  0000 C CNN
+F 1 "1k" V 650 6250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 950 6150 50  0001 C CNN
+F 3 "~" H 950 6150 50  0001 C CNN
+	1    950  6150
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J17
+U 1 1 5CD7FE91
+P 7600 5850
+F 0 "J17" H 7680 5842 50  0000 L CNN
+F 1 "HEADER" H 7550 6050 50  0000 L CNN
+F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-4_1x04_P2.54mm_Horizontal" H 7600 5850 50  0001 C CNN
+F 3 "~" H 7600 5850 50  0001 C CNN
+	1    7600 5850
+	1    0    0    -1  
+$EndComp
+Text Label 7100 5050 2    50   ~ 0
+NTC1
+Text Label 7700 5050 2    50   ~ 0
+NTC2
+Wire Wire Line
+	6900 5050 7100 5050
+Wire Wire Line
+	7500 5050 7700 5050
+Text Label 6850 5750 0    50   ~ 0
+NTC1
+Text Label 6850 5950 0    50   ~ 0
+NTC2
+$Comp
+L power:+5V #PWR0101
+U 1 1 5CDE3A51
+P 6950 5850
+F 0 "#PWR0101" H 6950 5700 50  0001 C CNN
+F 1 "+5V" V 6965 5978 50  0000 L CNN
+F 2 "" H 6950 5850 50  0001 C CNN
+F 3 "" H 6950 5850 50  0001 C CNN
+	1    6950 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5CDF0FB8
+P 6950 6050
+F 0 "#PWR0102" H 6950 5900 50  0001 C CNN
+F 1 "+5V" V 6965 6178 50  0000 L CNN
+F 2 "" H 6950 6050 50  0001 C CNN
+F 3 "" H 6950 6050 50  0001 C CNN
+	1    6950 6050
+	0    -1   -1   0   
+$EndComp
+Wire Notes Line
+	6650 4650 6650 6150
+Wire Notes Line
+	6650 6150 8100 6150
+Wire Notes Line
+	8100 6150 8100 4650
+Wire Notes Line
+	8100 4650 6650 4650
+Connection ~ 7050 6050
+Connection ~ 7050 5850
+Connection ~ 7050 5950
+Connection ~ 7050 5750
+Wire Wire Line
+	6950 6050 7050 6050
+Wire Wire Line
+	7050 6050 7400 6050
+Wire Wire Line
+	6850 5950 7050 5950
+Wire Wire Line
+	7050 5950 7400 5950
+Wire Wire Line
+	6950 5850 7050 5850
+Wire Wire Line
+	7050 5850 7400 5850
+Wire Wire Line
+	6850 5750 7050 5750
+Wire Wire Line
+	7400 5750 7050 5750
+$Comp
+L Connector_Generic:Conn_01x04 J18
+U 1 1 5CD80270
+P 7250 5850
+F 0 "J18" H 7330 5842 50  0000 L CNN
+F 1 "JST-XH" H 7000 6050 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 7250 5850 50  0001 C CNN
+F 3 "~" H 7250 5850 50  0001 C CNN
+	1    7250 5850
+	1    0    0    -1  
+$EndComp
+Connection ~ 5350 6400
+Wire Wire Line
+	5250 6400 5350 6400
+Wire Wire Line
+	5350 6400 5650 6400
+$Comp
+L Connector_Generic:Conn_01x08 J6
+U 1 1 5D13C2EF
+P 5550 6000
+F 0 "J6" H 5500 5500 50  0000 L CNN
+F 1 "JST-XH" H 5350 6400 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical" H 5550 6000 50  0001 C CNN
+F 3 "~" H 5550 6000 50  0001 C CNN
+	1    5550 6000
+	1    0    0    -1  
+$EndComp
+Text Label 10550 1100 1    50   ~ 0
+MOTOR1_A
+Text Label 10550 1200 3    50   ~ 0
+MOTOR1_B
+Wire Wire Line
+	10550 1100 10500 1100
+Connection ~ 10500 1100
+Wire Wire Line
+	10500 1200 10550 1200
+Connection ~ 10500 1200
 $EndSCHEMATC

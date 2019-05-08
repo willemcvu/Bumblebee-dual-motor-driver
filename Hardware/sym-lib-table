@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name A4940)(type Legacy)(uri ${KIPRJMOD}/A4940.lib)(options "")(descr ""))
+  (lib (name Bumblebee-dual-motor-driver-rescue)(type Legacy)(uri ${KIPRJMOD}/Bumblebee-dual-motor-driver-rescue.lib)(options "")(descr ""))
 )

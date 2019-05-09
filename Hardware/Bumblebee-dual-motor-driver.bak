@@ -2020,4 +2020,14 @@ Connection ~ 10500 1100
 Wire Wire Line
 	10500 1200 10550 1200
 Connection ~ 10500 1200
+Text Label 10550 2300 3    50   ~ 0
+MOTOR2_B
+Text Label 10550 2200 1    50   ~ 0
+MOTOR2_A
+Wire Wire Line
+	10550 2200 10500 2200
+Connection ~ 10500 2200
+Wire Wire Line
+	10500 2300 10550 2300
+Connection ~ 10500 2300
 $EndSCHEMATC

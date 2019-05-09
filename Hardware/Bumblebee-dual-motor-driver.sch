@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Bumblebee-dual-motor-driver-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -926,7 +926,7 @@ JS_X
 Text Label 600  1550 0    50   ~ 0
 JS_Y
 $Comp
-L Interface_USB:FT232RL U2
+L Bumblebee-dual-motor-driver-rescue:FT232RL-Interface_USB U2
 U 1 1 5CF29FD7
 P 2100 5750
 F 0 "U2" H 1700 6700 50  0000 C CNN
@@ -1172,7 +1172,7 @@ Connection ~ 650  6050
 Text Label 650  5050 0    50   ~ 0
 M8RXD
 $Comp
-L Device:R_Small_US R1
+L Bumblebee-dual-motor-driver-rescue:R_Small_US-Device R1
 U 1 1 5CFBCE5C
 P 1100 5050
 F 0 "R1" V 800 4950 50  0000 C CNN
@@ -1183,7 +1183,7 @@ F 3 "~" H 1100 5050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small_US R2
+L Bumblebee-dual-motor-driver-rescue:R_Small_US-Device R2
 U 1 1 5CFBD8D4
 P 1100 5150
 F 0 "R2" V 800 5050 50  0000 C CNN
@@ -1889,7 +1889,7 @@ Wire Notes Line
 Text Notes 3000 700  0    100  ~ 0
 Configuration
 $Comp
-L Device:R_Small_US R20
+L Bumblebee-dual-motor-driver-rescue:R_Small_US-Device R20
 U 1 1 5CD595B4
 P 950 6050
 F 0 "R20" V 650 5950 50  0000 C CNN
@@ -1900,7 +1900,7 @@ F 3 "~" H 950 6050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small_US R21
+L Bumblebee-dual-motor-driver-rescue:R_Small_US-Device R21
 U 1 1 5CD595BA
 P 950 6150
 F 0 "R21" V 650 6050 50  0000 C CNN

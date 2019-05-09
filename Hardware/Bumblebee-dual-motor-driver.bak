@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Bumblebee-dual-motor-driver-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -461,7 +461,7 @@ AR Path="/5C4E5628/5C50A09A" Ref="J?"  Part="1"
 AR Path="/5C83278E/5C8304A7/5C50A09A" Ref="J?"  Part="1" 
 F 0 "J1" H 3600 4067 50  0000 C CNN
 F 1 "ICSP" H 3600 3976 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 3550 3750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 3550 3750 50  0001 C CNN
 F 3 "~" H 3550 3750 50  0001 C CNN
 	1    3550 3750
 	1    0    0    -1  
@@ -749,9 +749,9 @@ Text Label 2600 2950 2    50   ~ 0
 M8RXD
 Wire Wire Line
 	2050 3150 2600 3150
-Text Label 2300 2250 2    50   ~ 0
-NTC1
 Text Label 2300 2350 2    50   ~ 0
+NTC1
+Text Label 2300 2250 2    50   ~ 0
 NTC2
 Wire Wire Line
 	2300 2250 2050 2250
@@ -768,10 +768,6 @@ F 3 "~" H 3350 1450 50  0001 C CNN
 	1    3350 1450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2050 1350 3050 1350
-Wire Wire Line
-	2050 1450 3050 1450
 Wire Wire Line
 	3050 1550 2600 1550
 Wire Wire Line
@@ -804,8 +800,6 @@ Wire Wire Line
 	3650 1400 3650 1450
 Text Notes 3550 1200 0    50   ~ 0
 Configuration switch
-Wire Wire Line
-	2050 1250 3050 1250
 $Comp
 L Device:R_POT_US RV1
 U 1 1 5CEDF406
@@ -921,12 +915,12 @@ Wire Wire Line
 	850  1450 600  1450
 Wire Wire Line
 	850  1550 600  1550
-Text Label 600  1450 0    50   ~ 0
-JS_X
 Text Label 600  1550 0    50   ~ 0
+JS_X
+Text Label 600  1450 0    50   ~ 0
 JS_Y
 $Comp
-L Interface_USB:FT232RL U2
+L Bumblebee-dual-motor-driver-rescue:FT232RL-Interface_USB U2
 U 1 1 5CF29FD7
 P 2100 5750
 F 0 "U2" H 1700 6700 50  0000 C CNN
@@ -1172,7 +1166,7 @@ Connection ~ 650  6050
 Text Label 650  5050 0    50   ~ 0
 M8RXD
 $Comp
-L Device:R_Small_US R1
+L Bumblebee-dual-motor-driver-rescue:R_Small_US-Device R1
 U 1 1 5CFBCE5C
 P 1100 5050
 F 0 "R1" V 800 4950 50  0000 C CNN
@@ -1183,7 +1177,7 @@ F 3 "~" H 1100 5050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small_US R2
+L Bumblebee-dual-motor-driver-rescue:R_Small_US-Device R2
 U 1 1 5CFBD8D4
 P 1100 5150
 F 0 "R2" V 800 5050 50  0000 C CNN
@@ -1889,7 +1883,7 @@ Wire Notes Line
 Text Notes 3000 700  0    100  ~ 0
 Configuration
 $Comp
-L Device:R_Small_US R20
+L Bumblebee-dual-motor-driver-rescue:R_Small_US-Device R20
 U 1 1 5CD595B4
 P 950 6050
 F 0 "R20" V 650 5950 50  0000 C CNN
@@ -1900,7 +1894,7 @@ F 3 "~" H 950 6050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small_US R21
+L Bumblebee-dual-motor-driver-rescue:R_Small_US-Device R21
 U 1 1 5CD595BA
 P 950 6150
 F 0 "R21" V 650 6050 50  0000 C CNN
@@ -2030,4 +2024,35 @@ Connection ~ 10500 2200
 Wire Wire Line
 	10500 2300 10550 2300
 Connection ~ 10500 2300
+$Comp
+L power:+5V #PWR0117
+U 1 1 5CD5EFC5
+P 7950 750
+F 0 "#PWR0117" H 7950 600 50  0001 C CNN
+F 1 "+5V" H 7965 923 50  0000 C CNN
+F 2 "" H 7950 750 50  0001 C CNN
+F 3 "" H 7950 750 50  0001 C CNN
+	1    7950 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 750  7950 950 
+Wire Wire Line
+	3050 1250 2300 1250
+Wire Wire Line
+	2300 1250 2300 1450
+Wire Wire Line
+	2300 1450 2050 1450
+Wire Wire Line
+	2050 1350 3050 1350
+Wire Wire Line
+	3050 1450 2600 1450
+Wire Wire Line
+	2600 1450 2600 1300
+Wire Wire Line
+	2600 1300 2150 1300
+Wire Wire Line
+	2150 1300 2150 1250
+Wire Wire Line
+	2150 1250 2050 1250
 $EndSCHEMATC

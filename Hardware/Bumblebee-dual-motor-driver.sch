@@ -461,7 +461,7 @@ AR Path="/5C4E5628/5C50A09A" Ref="J?"  Part="1"
 AR Path="/5C83278E/5C8304A7/5C50A09A" Ref="J?"  Part="1" 
 F 0 "J1" H 3600 4067 50  0000 C CNN
 F 1 "ICSP" H 3600 3976 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 3550 3750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 3550 3750 50  0001 C CNN
 F 3 "~" H 3550 3750 50  0001 C CNN
 	1    3550 3750
 	1    0    0    -1  
@@ -749,9 +749,9 @@ Text Label 2600 2950 2    50   ~ 0
 M8RXD
 Wire Wire Line
 	2050 3150 2600 3150
-Text Label 2300 2250 2    50   ~ 0
-NTC1
 Text Label 2300 2350 2    50   ~ 0
+NTC1
+Text Label 2300 2250 2    50   ~ 0
 NTC2
 Wire Wire Line
 	2300 2250 2050 2250
@@ -768,10 +768,6 @@ F 3 "~" H 3350 1450 50  0001 C CNN
 	1    3350 1450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2050 1350 3050 1350
-Wire Wire Line
-	2050 1450 3050 1450
 Wire Wire Line
 	3050 1550 2600 1550
 Wire Wire Line
@@ -804,8 +800,6 @@ Wire Wire Line
 	3650 1400 3650 1450
 Text Notes 3550 1200 0    50   ~ 0
 Configuration switch
-Wire Wire Line
-	2050 1250 3050 1250
 $Comp
 L Device:R_POT_US RV1
 U 1 1 5CEDF406
@@ -921,9 +915,9 @@ Wire Wire Line
 	850  1450 600  1450
 Wire Wire Line
 	850  1550 600  1550
-Text Label 600  1450 0    50   ~ 0
-JS_X
 Text Label 600  1550 0    50   ~ 0
+JS_X
+Text Label 600  1450 0    50   ~ 0
 JS_Y
 $Comp
 L Bumblebee-dual-motor-driver-rescue:FT232RL-Interface_USB U2
@@ -992,17 +986,6 @@ Wire Wire Line
 	2100 6750 2300 6750
 Wire Wire Line
 	2100 6850 2100 6750
-$Comp
-L power:VCC #PWR09
-U 1 1 5CF6F5A6
-P 2100 4700
-F 0 "#PWR09" H 2100 4550 50  0001 C CNN
-F 1 "VCC" H 2100 4850 50  0000 C CNN
-F 2 "" H 2100 4700 50  0001 C CNN
-F 3 "" H 2100 4700 50  0001 C CNN
-	1    2100 4700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2100 4700 2100 4750
 Connection ~ 2100 4750
@@ -1065,28 +1048,6 @@ F 1 "GND" H 3305 4677 50  0000 C CNN
 F 2 "" H 3300 4850 50  0001 C CNN
 F 3 "" H 3300 4850 50  0001 C CNN
 	1    3300 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR015
-U 1 1 5CF7DAA5
-P 3300 4650
-F 0 "#PWR015" H 3300 4500 50  0001 C CNN
-F 1 "VCC" H 3317 4823 50  0000 C CNN
-F 2 "" H 3300 4650 50  0001 C CNN
-F 3 "" H 3300 4650 50  0001 C CNN
-	1    3300 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR019
-U 1 1 5CF7E72B
-P 3600 5100
-F 0 "#PWR019" H 3600 4950 50  0001 C CNN
-F 1 "VCC" H 3617 5273 50  0000 C CNN
-F 2 "" H 3600 5100 50  0001 C CNN
-F 3 "" H 3600 5100 50  0001 C CNN
-	1    3600 5100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2030,4 +1991,41 @@ Connection ~ 10500 2200
 Wire Wire Line
 	10500 2300 10550 2300
 Connection ~ 10500 2300
+$Comp
+L power:+5V #PWR0117
+U 1 1 5CD5EFC5
+P 7950 750
+F 0 "#PWR0117" H 7950 600 50  0001 C CNN
+F 1 "+5V" H 7965 923 50  0000 C CNN
+F 2 "" H 7950 750 50  0001 C CNN
+F 3 "" H 7950 750 50  0001 C CNN
+	1    7950 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 750  7950 950 
+Wire Wire Line
+	3050 1250 2300 1250
+Wire Wire Line
+	2300 1250 2300 1450
+Wire Wire Line
+	2300 1450 2050 1450
+Wire Wire Line
+	2050 1350 3050 1350
+Wire Wire Line
+	3050 1450 2600 1450
+Wire Wire Line
+	2600 1450 2600 1300
+Wire Wire Line
+	2600 1300 2150 1300
+Wire Wire Line
+	2150 1300 2150 1250
+Wire Wire Line
+	2150 1250 2050 1250
+Text Label 3600 5100 1    50   ~ 0
+USB_PWR
+Text Label 3300 4650 1    50   ~ 0
+USB_PWR
+Text Label 2100 4700 2    50   ~ 0
+USB_PWR
 $EndSCHEMATC

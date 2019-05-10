@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Bumblebee-dual-motor-driver-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -806,7 +806,7 @@ U 1 1 5CEDF406
 P 3350 2150
 F 0 "RV1" H 3282 2104 50  0000 R CNN
 F 1 "R_POT_US" H 3282 2195 50  0000 R CNN
-F 2 "Potentiometer_SMD:Potentiometer_ACP_CA6-VSMD_Vertical" H 3350 2150 50  0001 C CNN
+F 2 "footprints:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 3350 2150 50  0001 C CNN
 F 3 "~" H 3350 2150 50  0001 C CNN
 	1    3350 2150
 	-1   0    0    1   
@@ -886,7 +886,7 @@ U 1 1 5CEFCADE
 P 5850 4900
 F 0 "J3" H 5800 4600 50  0000 L CNN
 F 1 "HEADER" H 5750 5100 50  0000 L CNN
-F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-4_1x04_P2.54mm_Horizontal" H 5850 4900 50  0001 C CNN
+F 2 "footprints:TerminalBlock_TE_282834-4_1x04_P2.54mm_Horizontal" H 5850 4900 50  0001 C CNN
 F 3 "~" H 5850 4900 50  0001 C CNN
 	1    5850 4900
 	1    0    0    -1  
@@ -936,7 +936,7 @@ U 1 1 5CF311E3
 P 3950 5350
 F 0 "J2" H 4000 5800 50  0000 R CNN
 F 1 "USB_B_Micro" H 4200 5700 50  0000 R CNN
-F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 4100 5300 50  0001 C CNN
+F 2 "footprints:USB_Micro-B_Molex-105017-0001" H 4100 5300 50  0001 C CNN
 F 3 "~" H 4100 5300 50  0001 C CNN
 	1    3950 5350
 	-1   0    0    -1  
@@ -1235,7 +1235,7 @@ U 1 1 5D13B745
 P 5850 6000
 F 0 "J4" H 5800 5500 50  0000 L CNN
 F 1 "HEADER" H 5750 6400 50  0000 L CNN
-F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-8_1x08_P2.54mm_Horizontal" H 5850 6000 50  0001 C CNN
+F 2 "footprints:TerminalBlock_TE_282834-8_1x08_P2.54mm_Horizontal" H 5850 6000 50  0001 C CNN
 F 3 "~" H 5850 6000 50  0001 C CNN
 	1    5850 6000
 	1    0    0    -1  
@@ -1402,7 +1402,7 @@ U 1 1 5D2DA63C
 P 10350 3500
 F 0 "F2" H 10350 3685 50  0000 C CNN
 F 1 "20A" H 10350 3594 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Blade_Mini_Keystone_3568" H 10350 3500 50  0001 C CNN
+F 2 "footprints:Fuseholder_Blade_Mini_Keystone_3568" H 10350 3500 50  0001 C CNN
 F 3 "~" H 10350 3500 50  0001 C CNN
 	1    10350 3500
 	1    0    0    -1  
@@ -1526,7 +1526,7 @@ U 1 1 5D3929E2
 P 10300 5100
 F 0 "F1" H 10300 5200 50  0000 C CNN
 F 1 "0.5A" H 10300 5000 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Blade_Mini_Keystone_3568" H 10300 5100 50  0001 C CNN
+F 2 "footprints:Fuseholder_Blade_Mini_Keystone_3568" H 10300 5100 50  0001 C CNN
 F 3 "~" H 10300 5100 50  0001 C CNN
 	1    10300 5100
 	1    0    0    -1  
@@ -1877,7 +1877,7 @@ U 1 1 5CD7FE91
 P 7600 5850
 F 0 "J17" H 7680 5842 50  0000 L CNN
 F 1 "HEADER" H 7550 6050 50  0000 L CNN
-F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-4_1x04_P2.54mm_Horizontal" H 7600 5850 50  0001 C CNN
+F 2 "footprints:TerminalBlock_TE_282834-4_1x04_P2.54mm_Horizontal" H 7600 5850 50  0001 C CNN
 F 3 "~" H 7600 5850 50  0001 C CNN
 	1    7600 5850
 	1    0    0    -1  

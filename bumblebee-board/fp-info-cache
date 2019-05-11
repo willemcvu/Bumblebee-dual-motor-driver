@@ -1,4 +1,4 @@
-15828373866147244
+15834604047916225
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44086,6 +44086,13 @@ EMI Filter
 19
 4
 footprints
+Arduino_Nano
+Arduino Nano, http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf
+Arduino Nano
+0
+30
+30
+footprints
 Fuseholder_Blade_Mini_Keystone_3568
 fuse holder, car blade fuse mini, http://www.keyelco.com/product-pdf.cfm?p=306
 car blade fuse mini
@@ -44099,6 +44106,13 @@ Potentiometer vertical Bourns PTV09A-1 Single
 0
 3
 3
+footprints
+pro_mini
+IC, ARDUINO_PRO_MINI x 0,6"
+DIL ARDUINO PRO MINI
+0
+31
+29
 footprints
 TerminalBlock_TE_282834-4_1x04_P2.54mm_Horizontal
 Terminal Block TE 282834-4, 4 pins, pitch 2.54mm, size 10.620000000000001x6.5mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_TE-Connectivity
@@ -44120,6 +44134,20 @@ Micro-USB SMD Typ-B
 0
 13
 6
+footprints
+vtLogo
+
+
+0
+0
+0
+footprints
+vtLogo15mm
+
+
+0
+0
+0
 Fuse
 Fuseholder_Blade_ATO_Littelfuse_Pudenz_2_Pin
 Fuseholder ATO Blade littelfuse Pudenz 2 Pin

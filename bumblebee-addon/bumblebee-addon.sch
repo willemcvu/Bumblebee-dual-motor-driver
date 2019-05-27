@@ -350,7 +350,7 @@ U 1 1 5CECB51D
 P 3350 2150
 F 0 "RV1" H 3282 2104 50  0000 R CNN
 F 1 "R_POT_US" H 3282 2195 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 3350 2150 50  0001 C CNN
+F 2 "footprints:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 3350 2150 50  0001 C CNN
 F 3 "~" H 3350 2150 50  0001 C CNN
 	1    3350 2150
 	-1   0    0    1   
@@ -393,7 +393,7 @@ U 1 1 5CECB548
 P 3350 5000
 F 0 "J2" H 3300 4700 50  0000 L CNN
 F 1 "HEADER" H 3250 5200 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 3350 5000 50  0001 C CNN
+F 2 "footprints:TerminalBlock_TE_282834-4_1x04_P2.54mm_Horizontal" H 3350 5000 50  0001 C CNN
 F 3 "~" H 3350 5000 50  0001 C CNN
 	1    3350 5000
 	1    0    0    -1  
@@ -410,17 +410,6 @@ Text Label 600  1550 0    50   ~ 0
 JS_X
 Text Label 600  1450 0    50   ~ 0
 JS_Y
-$Comp
-L Connector_Generic:Conn_01x08 J3
-U 1 1 5CECB5F2
-P 3350 6100
-F 0 "J3" H 3300 5600 50  0000 L CNN
-F 1 "HEADER" H 3250 6500 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical" H 3350 6100 50  0001 C CNN
-F 3 "~" H 3350 6100 50  0001 C CNN
-	1    3350 6100
-	1    0    0    -1  
-$EndComp
 Text Label 2300 6000 0    50   ~ 0
 BTN_DN
 Text Label 2300 6200 0    50   ~ 0
@@ -528,8 +517,6 @@ F 3 "~" V 1050 5375 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2300 5800 3150 5800
-Wire Wire Line
-	2750 5900 3150 5900
 Wire Wire Line
 	2300 6000 3150 6000
 Wire Wire Line
@@ -1126,4 +1113,17 @@ F 3 "" H 3350 2000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5600 1000 5600 1450
+Wire Wire Line
+	2750 5900 3150 5900
+$Comp
+L Connector_Generic:Conn_01x08 J3
+U 1 1 5CECB5F2
+P 3350 6200
+F 0 "J3" H 3300 5700 50  0000 L CNN
+F 1 "HEADER" H 3250 6600 50  0000 L CNN
+F 2 "footprints:TerminalBlock_TE_282834-8_1x08_P2.54mm_Horizontal" H 3350 6200 50  0001 C CNN
+F 3 "~" H 3350 6200 50  0001 C CNN
+	1    3350 6200
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC

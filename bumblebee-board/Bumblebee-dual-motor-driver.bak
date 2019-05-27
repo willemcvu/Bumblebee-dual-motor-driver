@@ -806,7 +806,7 @@ U 1 1 5CEDF406
 P 3350 2150
 F 0 "RV1" H 3282 2104 50  0000 R CNN
 F 1 "R_POT_US" H 3282 2195 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 3350 2150 50  0001 C CNN
+F 2 "footprints:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 3350 2150 50  0001 C CNN
 F 3 "~" H 3350 2150 50  0001 C CNN
 	1    3350 2150
 	-1   0    0    1   
@@ -936,7 +936,7 @@ U 1 1 5CF311E3
 P 3950 5350
 F 0 "J2" H 4000 5800 50  0000 R CNN
 F 1 "USB_B_Micro" H 4200 5700 50  0000 R CNN
-F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 4100 5300 50  0001 C CNN
+F 2 "footprints:USB_Micro-B_Molex-105017-0001" H 4100 5300 50  0001 C CNN
 F 3 "~" H 4100 5300 50  0001 C CNN
 	1    3950 5350
 	-1   0    0    -1  
@@ -1581,7 +1581,7 @@ F 1 "R-78E5.0-0.5" H 7950 3751 50  0000 C CNN
 F 2 "Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT" H 8000 3350 50  0001 L CIN
 F 3 "https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf" H 7950 3600 50  0001 C CNN
 	1    7950 3600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:VBUS #PWR043

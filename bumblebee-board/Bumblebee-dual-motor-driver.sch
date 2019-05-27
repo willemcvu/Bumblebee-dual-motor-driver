@@ -723,21 +723,17 @@ F 3 "" H 6650 1950 50  0001 C CNN
 	1    6650 1950
 	1    0    0    -1  
 $EndComp
-Text Label 2600 3250 2    50   ~ 0
-MOTOR1_PWM
-Wire Wire Line
-	2050 3250 2600 3250
 Text Label 2600 3450 2    50   ~ 0
 MOTOR2_PWM
 Wire Wire Line
 	2050 3450 2600 3450
 Wire Wire Line
-	2050 3550 2600 3550
+	2050 3250 2600 3250
 Wire Wire Line
 	2050 3350 2600 3350
 Text Label 2600 3350 2    50   ~ 0
 MOTOR1_DIR
-Text Label 2600 3550 2    50   ~ 0
+Text Label 2600 3250 2    50   ~ 0
 MOTOR2_DIR
 Wire Wire Line
 	2050 3050 2600 3050
@@ -1581,7 +1577,7 @@ F 1 "R-78E5.0-0.5" H 7950 3751 50  0000 C CNN
 F 2 "Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT" H 8000 3350 50  0001 L CIN
 F 3 "https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf" H 7950 3600 50  0001 C CNN
 	1    7950 3600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:VBUS #PWR043
@@ -2028,4 +2024,8 @@ Text Label 3300 4650 1    50   ~ 0
 USB_PWR
 Text Label 2100 4700 2    50   ~ 0
 USB_PWR
+Wire Wire Line
+	2050 3550 2600 3550
+Text Label 2600 3550 2    50   ~ 0
+MOTOR1_PWM
 $EndSCHEMATC

@@ -1,0 +1,19 @@
+Id,Designator,Package,Quantity,Designation,Manufacturer,PN
+1,G***,vtLogo15mm,1,LOGO,N/A,
+2,"G***,G***",bumblebee_logo,2,LOGO,N/A,
+3,"REF**,REF**,REF**,REF**",MountingHole_3.2mm_M3,4,MountingHole_3.2mm_M3,N/A,
+4,A1,Arduino_Nano,1,Arduino_Nano_v3.x,,
+5,C1,C_Disc_D5.0mm_W2.5mm_P5.00mm,1,0.1u,,C315C104M5U5TA
+6,C2,C_Radial_D8.0mm_H7.0mm_P3.50mm,1,10u,Nichicon,UVR2C100MPD
+7,J3,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,1,Conn_01x04,JST,B4B-XH-A (LF)(SN)
+,J3,MATING,1,XHP-4,JST,XHP-4
+8,J4,JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical,1,JST-XH,JST,B8B-XH-A (LF)(SN)
+,J4,MATING,1,XHP-8,JST,XHP-8
+,"J4,J5",PINS,12,SXH-001T-P0.6N,JST,SXH-001T-P0.6N
+9,J5,TerminalBlock_TE_282834-4_1x04_P2.54mm_Horizontal,1,Conn_01x04,,
+10,J6,TerminalBlock_TE_282834-8_1x08_P2.54mm_Horizontal,1,HEADER,,
+11,J7,"PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical",1,Conn_01x02,ONSHORE,OSTTC022162
+12,RV1,Potentiometer_Bourns_PTV09A-1_Single_Vertical,1,Speed Limit,Bourns,PTV09A-4020F-B103
+13,SW1,SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile,1,SW_DIP_x04,CTS,208-4
+14,J1,PinHeader_1x03_P2.54mm_Horizontal,2,"RMOTOR,LMOTOR",,
+15,J2,PinHeader_1x03_P2.54mm_Horizontal,1,LMOTOR,,

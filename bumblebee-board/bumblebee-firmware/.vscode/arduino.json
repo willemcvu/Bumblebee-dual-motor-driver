@@ -1,0 +1,7 @@
+{
+    "programmer": "AVR ISP",
+    "board": "MiniCore:avr:328",
+    "port": "COM4",
+    "sketch": "bumblebee-firmware.ino",
+    "configuration": "bootloader=uart0,variant=modelP,BOD=2v7,LTO=Os,clock=8MHz_internal"
+}

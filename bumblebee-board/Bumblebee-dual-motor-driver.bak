@@ -723,21 +723,17 @@ F 3 "" H 6650 1950 50  0001 C CNN
 	1    6650 1950
 	1    0    0    -1  
 $EndComp
-Text Label 2600 3250 2    50   ~ 0
-MOTOR1_PWM
-Wire Wire Line
-	2050 3250 2600 3250
 Text Label 2600 3450 2    50   ~ 0
 MOTOR2_PWM
 Wire Wire Line
 	2050 3450 2600 3450
 Wire Wire Line
-	2050 3550 2600 3550
+	2050 3250 2600 3250
 Wire Wire Line
 	2050 3350 2600 3350
 Text Label 2600 3350 2    50   ~ 0
 MOTOR1_DIR
-Text Label 2600 3550 2    50   ~ 0
+Text Label 2600 3250 2    50   ~ 0
 MOTOR2_DIR
 Wire Wire Line
 	2050 3050 2600 3050
@@ -2028,4 +2024,8 @@ Text Label 3300 4650 1    50   ~ 0
 USB_PWR
 Text Label 2100 4700 2    50   ~ 0
 USB_PWR
+Wire Wire Line
+	2050 3550 2600 3550
+Text Label 2600 3550 2    50   ~ 0
+MOTOR1_PWM
 $EndSCHEMATC

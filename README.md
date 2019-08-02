@@ -1,4 +1,4 @@
-**_NOTE: Everything here is still actively in development, and is mostly untested. Firmware has not been written; BOMs have not been created. If you'd like to use something here, I would suggest waiting until mid-June, at which point I should have tested all hardware and written firmware._**
+**_NOTE: Everything here is still actively in development, and is mostly untested. Firmware has not been written; BOMs have not been created. If you'd like to use something here, I would suggest waiting until I have tested all hardware and written firmware._**
 
 **All boards below will be available for sale bare or assembled at some point in the near future, likely on Tindie. For now, feel free to start an issue if you're interested in buying a board.**
 
